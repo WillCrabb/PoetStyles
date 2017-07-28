@@ -12,3 +12,4 @@ C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\PoetS
 C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\PoetStyles.csproj.GenerateResource.Cache
 C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\PoetStyles.exe
 C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\PoetStyles.pdb
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\SecondStyle.baml
