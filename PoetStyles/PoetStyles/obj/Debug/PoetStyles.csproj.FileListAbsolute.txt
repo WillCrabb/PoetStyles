@@ -1,0 +1,14 @@
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\bin\Debug\PoetStyles.exe.config
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\bin\Debug\PoetStyles.exe
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\bin\Debug\PoetStyles.pdb
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\PoetStyles.csprojResolveAssemblyReference.cache
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\MainWindow.g.cs
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\App.g.cs
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\PoetStyles_MarkupCompile.cache
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\PoetStyles_MarkupCompile.lref
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\MainWindow.baml
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\PoetStyles.g.resources
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\PoetStyles.Properties.Resources.resources
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\PoetStyles.csproj.GenerateResource.Cache
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\PoetStyles.exe
+C:\Users\willi\Documents\GitHub\PoetStyles\PoetStyles\PoetStyles\obj\Debug\PoetStyles.pdb
