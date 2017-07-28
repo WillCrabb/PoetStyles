@@ -67,6 +67,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SecondStyle.xaml">
     <Page Include="StyleOne.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
