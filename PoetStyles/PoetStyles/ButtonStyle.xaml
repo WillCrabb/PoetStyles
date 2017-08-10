@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:PoetStyles">
 
-    <Color x:Key="ButtonFill" A="255" R="50" G="50" B="50" />
+    <Color x:Key="ButtonFill" A="55" R="50" G="50" B="50" />
     <Color x:Key="ButtonStroke" A="255" R="90" G="90" B="90" />
 
     <Color x:Key="ButtonHover" A="255" R="90" G="90" B="90" />
