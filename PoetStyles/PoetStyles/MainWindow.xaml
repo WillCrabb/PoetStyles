@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:PoetStyles"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+
     <Grid>
-        
+        <Button Width="50" Height="50" IsEnabled="False"/>
     </Grid>
 </Window>
