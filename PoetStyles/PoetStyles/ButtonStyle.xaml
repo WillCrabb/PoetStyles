@@ -1,0 +1,107 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:PoetStyles">
+
+    <Color x:Key="ButtonFill" A="255" R="50" G="50" B="50" />
+    <Color x:Key="ButtonStroke" A="255" R="90" G="90" B="90" />
+
+    <Style TargetType="Button">
+        <Setter Property="BorderBrush">
+            <Setter.Value>
+                <SolidColorBrush Color="{StaticResource ButtonStroke}" />
+            </Setter.Value>
+        </Setter>
+        <Setter Property="BorderThickness" Value="4"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBackground"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        BorderBrush="{TemplateBinding BorderBrush}">
+                        <Border.Background>
+                            <SolidColorBrush x:Name="BackGroundBrush" Color="#282828" />
+                        </Border.Background>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard x:Name="DisabledAnimationAnimation">
+                                        <ColorAnimation Storyboard.TargetName="BackGroundBrush"
+                                                        Storyboard.TargetProperty="Color"
+                                                        To="#e4e3ff"
+                                                        Duration="0:0:0:0"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard x:Name="EnabledAnimationAnimation">
+                                        <ColorAnimation Storyboard.TargetName="BackGroundBrush"
+                                                        Storyboard.TargetProperty="Color"
+                                                        To="#282828"
+                                                        Duration="0:0:0:0"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsEnabled" Value="True" />
+                                <Condition Property="IsMouseOver" Value="True" />
+                            </MultiTrigger.Conditions>
+                            <MultiTrigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard x:Name="MouseOverAnimation">
+                                        <ColorAnimation Storyboard.TargetName="BackGroundBrush"
+                                                        Storyboard.TargetProperty="Color"
+                                                        To="#ff9933"
+                                                        Duration="0:0:0:1"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </MultiTrigger.EnterActions>
+                            <MultiTrigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard x:Name="MouseExitAnimation" FillBehavior="Stop">
+                                        <ColorAnimation Storyboard.TargetName="BackGroundBrush"
+                                                        Storyboard.TargetProperty="Color"
+                                                        To="#282828"
+                                                        Duration="0:0:0:1"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </MultiTrigger.ExitActions>
+                        </MultiTrigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsEnabled" Value="True"/>
+                                <Condition Property="IsPressed"  Value="True" />
+                            </MultiTrigger.Conditions>
+                            <MultiTrigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard x:Name="MouseDownAnimation">
+                                        <ColorAnimation Storyboard.TargetName="BackGroundBrush"
+                                                        Storyboard.TargetProperty="Color"
+                                                        To="#e6e6e6"
+                                                        Duration="0:0:0:1"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </MultiTrigger.EnterActions>
+                            <MultiTrigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard x:Name="MouseUpAnimation" FillBehavior="Stop">
+                                        <ColorAnimation Storyboard.TargetName="BackGroundBrush"
+                                                        Storyboard.TargetProperty="Color"
+                                                        To="#ff9933"
+                                                        Duration="0:0:0:1"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </MultiTrigger.ExitActions>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+
+        </Setter>
+    </Style>
+</ResourceDictionary>
